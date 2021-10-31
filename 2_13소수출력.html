@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html>
+    <body>
+        <script>
+            let n;
+            n=prompt('숫자를 입력하세요.',0)
+            let i=2;
+            let j=2;
+            for(i=2;i<=n;i++)
+            {
+                for (j=2;j<i;j++)
+                {
+                    if(i%j!=0) continue;
+                    else break;
+
+                }
+                if(j==i)
+                {
+                    alert(i);
+                }
+            }
+            
+        </script>
+    </body>
+</html>
